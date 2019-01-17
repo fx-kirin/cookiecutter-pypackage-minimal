@@ -1,5 +1,4 @@
-{{ cookiecutter.package_name }}
-{{ cookiecutter.package_name|count * "=" }}
+# {{ cookiecutter.package_name }}
 
 {% if cookiecutter.readme_pypi_badge == 'y' -%}
 [![Latest PyPI version](https://img.shields.io/pypi/v/package_name.svg)](https://pypi.python.org/pypi/package_name)
@@ -13,21 +12,16 @@
 {{ cookiecutter.package_description }}
 
 {% endif -%}
-Usage
------
+## Usage
 
-Installation
-------------
+## Installation
 
 ### Requirements
 
-Compatibility
--------------
+## Compatibility
 
-Licence
--------
+## Licence
 
-Authors
--------
+## Authors
 
 package\_name was written by [fx-kirin](fx.kirin@gmail.com).

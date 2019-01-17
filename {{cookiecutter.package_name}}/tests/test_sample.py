@@ -11,7 +11,7 @@ import stdlogging
 from add_parent_path import add_parent_path
 
 with add_parent_path():
-    pass
+    import {{ cookiecutter.package_name }}
 
 
 def setup_module(module):
