@@ -1,7 +1,7 @@
 # {{ cookiecutter.package_name }}
 
 {% if cookiecutter.readme_pypi_badge == 'y' -%}
-[![Latest PyPI version](https://img.shields.io/pypi/v/package_name.svg)](https://pypi.python.org/pypi/package_name)
+[![Latest PyPI version](https://img.shields.io/pypi/v/package_name.svg)](https://pypi.python.org/pypi/{{ cookiecutter.package_name }})
 
 {% endif -%}
 {% if cookiecutter.readme_travis_badge == 'y' -%}
